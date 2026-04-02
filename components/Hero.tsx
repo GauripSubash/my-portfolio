@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const TAGLINES = [
   "Building software that makes a difference.",
-  "Data science enthusiast & problem solver.",
+  "Computer Science enthusiast & problem solver.",
   "CS student · NC State University.",
 ];
 
@@ -72,7 +72,7 @@ export default function Hero() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-[1.08] tracking-tight mb-5">
             Hi, I&apos;m{" "}
             <span className="relative inline-block">
-              <span className="text-indigo-500">Gaurinath</span>
+              <span className="text-indigo-500">Gaurinath Subash</span>
               <span
                 aria-hidden
                 className="absolute -bottom-1 left-0 right-0 h-[5px] rounded-full"
@@ -94,9 +94,9 @@ export default function Hero() {
 
           {/* Description */}
           <p className="text-base sm:text-lg text-slate-500 leading-relaxed mb-10 max-w-xl">
-            Computer Science student at NC&nbsp;State (GPA&nbsp;3.7), with hands-on
-            experience in data science, IT support, and collaborative software
-            projects. Passionate about building tools that solve real problems.
+            Computer Science student at NC&nbsp;State, with hands-on experience
+            in data science, IT support, and collaborative software projects.
+            Extremely passionate about building tools that solve real problems.
           </p>
 
           {/* CTA Buttons */}
