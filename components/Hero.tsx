@@ -95,8 +95,9 @@ export default function Hero() {
           {/* Description */}
           <p className="text-base sm:text-lg text-slate-500 leading-relaxed mb-10 max-w-xl">
             Computer Science student at NC&nbsp;State, with hands-on experience
-            in data science, IT support, and collaborative software projects.
-            Extremely passionate about building tools that solve real problems.
+            in software engineering, full-stack development, data science, and
+            IT support. Extremely passionate about building tools that solve
+            real problems.
           </p>
 
           {/* CTA Buttons */}

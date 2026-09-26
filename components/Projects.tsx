@@ -1,4 +1,4 @@
-import { Code2, BarChart3 } from "lucide-react";
+import { Code2, BarChart3, Rocket } from "lucide-react";
 import { GithubIcon } from "./BrandIcons";
 import ScrollReveal from "./ScrollReveal";
 
@@ -24,6 +24,39 @@ interface Project {
 }
 
 const PROJECTS: Project[] = [
+  {
+    title: "Ramp",
+    period: "Aug 2026",
+    type: "IBM Hackathon Team Project",
+    description:
+      "An automated developer onboarding platform that analyzes unfamiliar Git repositories and generates structured curricula, technical assessments, quests, and written or spoken explain-backs. I focused on the frontend experience and connected browser audio workflows to an Express backend and IBM services for transcription, grading, and progress tracking.",
+    tech: [
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS",
+      "Express",
+      "IBM watsonx.ai",
+      "Cloudant",
+      "Speech-to-Text",
+    ],
+    highlights: [
+      "20+ assessments per run",
+      "Sub-15ms test inspections",
+      "Under-1.5s grading latency",
+    ],
+    githubUrl: "https://github.com/GauripSubash/Ramp",
+    gradientFrom: "#ecfeff",
+    gradientTo: "#eef2ff",
+    accentText: "text-cyan-700",
+    accentBg: "bg-cyan-50",
+    accentBorder: "border-cyan-100",
+    tagBg: "bg-cyan-50",
+    tagText: "text-cyan-700",
+    cardBorder: "border-cyan-100",
+    cardHover: "hover:border-cyan-200 hover:shadow-cyan-50",
+    Icon: Rocket,
+    iconColor: "text-cyan-600",
+  },
   {
     title: "Connect 4 Game",
     period: "Apr 2025 – May 2025",
@@ -91,7 +124,7 @@ export default function Projects() {
           </p>
         </ScrollReveal>
 
-        <div className="grid md:grid-cols-2 gap-7">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
           {PROJECTS.map((proj, i) => (
             <ScrollReveal key={proj.title} delay={i * 120}>
               <article

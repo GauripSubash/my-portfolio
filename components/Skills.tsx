@@ -10,37 +10,64 @@ interface SkillCategory {
 
 const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    name: "Programming Languages",
-    skills: ["Java", "Python", "C", "C++", "R"],
+    name: "Coursework",
+    skills: [
+      "Data Structures & Algorithms",
+      "Operating Systems",
+      "Software Engineering",
+      "Web Development",
+    ],
     tagClass:
       "bg-indigo-50 text-indigo-700 border border-indigo-200 hover:bg-indigo-100",
     headingClass: "text-indigo-600",
     dotClass: "bg-indigo-400",
   },
   {
-    name: "Operating Systems",
-    skills: ["Windows", "macOS", "Linux (Ubuntu)"],
+    name: "Programming Languages",
+    skills: [
+      "Java",
+      "C#",
+      "C",
+      "C++",
+      "TypeScript",
+      "Razor",
+      "HTML",
+      "JavaScript",
+      "Python",
+      "R",
+    ],
     tagClass:
       "bg-violet-50 text-violet-700 border border-violet-200 hover:bg-violet-100",
     headingClass: "text-violet-600",
     dotClass: "bg-violet-400",
   },
   {
-    name: "Tools & Environments",
-    skills: ["Git", "VS Code", "Jupyter", "Eclipse"],
+    name: "Frameworks & Databases",
+    skills: [
+      ".NET",
+      "AngularJS",
+      "React (Next.js)",
+      "Express",
+      "RabbitMQ",
+      "Databricks",
+      "PostgreSQL",
+      "Spring Boot",
+    ],
     tagClass:
       "bg-sky-50 text-sky-700 border border-sky-200 hover:bg-sky-100",
     headingClass: "text-sky-600",
     dotClass: "bg-sky-400",
   },
   {
-    name: "Data Science",
+    name: "Developer Tools",
     skills: [
-      "Data Analysis",
-      "Data Visualization",
-      "Statistical Modeling",
-      "Text Mining",
-      "Exploratory Analysis",
+      "GitLab",
+      "Docker",
+      "Jira",
+      "New Relic",
+      "VS Code",
+      "Visual Studio",
+      "Eclipse",
     ],
     tagClass:
       "bg-emerald-50 text-emerald-700 border border-emerald-200 hover:bg-emerald-100",
@@ -48,21 +75,28 @@ const SKILL_CATEGORIES: SkillCategory[] = [
     dotClass: "bg-emerald-400",
   },
   {
-    name: "Machine Learning",
-    skills: ["Logistic Regression", "Naive Bayes", "Classification", "NLP"],
+    name: "IBM & AI Services",
+    skills: [
+      "IBM Bob",
+      "watsonx.ai",
+      "IBM Cloudant",
+      "IBM Speech-to-Text",
+      "Web Audio API",
+    ],
     tagClass:
       "bg-amber-50 text-amber-700 border border-amber-200 hover:bg-amber-100",
     headingClass: "text-amber-600",
     dotClass: "bg-amber-400",
   },
   {
-    name: "Concepts & Practices",
+    name: "Data & Machine Learning",
     skills: [
-      "Object-Oriented Programming",
-      "Version Control",
-      "Technical Writing",
-      "Team Collaboration",
-      "Project Management",
+      "SQL",
+      "Data Analysis",
+      "Data Visualization",
+      "Logistic Regression",
+      "Naive Bayes",
+      "Text Mining",
     ],
     tagClass:
       "bg-rose-50 text-rose-600 border border-rose-200 hover:bg-rose-100",

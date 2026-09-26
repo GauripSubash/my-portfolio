@@ -1,4 +1,4 @@
-import { Briefcase, BarChart2, Heart } from "lucide-react";
+import { Briefcase, BarChart2, Code2 } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 
 interface ExperienceItem {
@@ -23,9 +23,9 @@ const EXPERIENCES: ExperienceItem[] = [
     location: "Raleigh, NC",
     period: "Aug 2025 – Present",
     bullets: [
-      "Implement on-site and remote solutions for 50+ classrooms and conference rooms, maintaining 99% uptime.",
-      "Troubleshoot and resolve 15–25 complex technical issues per week — from connectivity disruptions to AV equipment failures.",
-      "Deliver timely support to 100+ faculty and staff, ensuring clear communication and a positive client experience.",
+      "Diagnose multi-layered hardware and software failures across 50+ classrooms, maintaining 99% uptime.",
+      "Execute rapid incident analysis on 15–25 complex technical issues weekly to eliminate system downtime.",
+      "Deliver cross-functional technical support to 100+ faculty and staff members, ensuring timely communication and resolution tracking.",
     ],
     dotColor: "bg-indigo-500",
     badgeBg: "bg-indigo-50",
@@ -34,38 +34,38 @@ const EXPERIENCES: ExperienceItem[] = [
     cardHover: "hover:border-indigo-200",
   },
   {
+    Icon: Code2,
+    role: "Software Engineering Intern",
+    company: "Direct Supply",
+    location: "Durham, NC",
+    period: "May 2026 – Aug 2026",
+    bullets: [
+      "Engineered 10+ event-driven microservices using C# and RabbitMQ to automate customer notifications.",
+      "Designed and implemented 5+ front-end UI features using AngularJS and ASP.NET Razor for external service providers.",
+      "Spearheaded an Agile team of engineers to ship 20–25 production releases biweekly using PostgreSQL, SQL Server, and GitLab CI/CD pipelines.",
+    ],
+    dotColor: "bg-sky-500",
+    badgeBg: "bg-sky-50",
+    badgeText: "text-sky-600",
+    cardBorder: "border-sky-100",
+    cardHover: "hover:border-sky-200",
+  },
+  {
     Icon: BarChart2,
     role: "Data Science Intern",
-    company: "Under David Kane",
+    company: "David Kane's Data Lab",
     location: "Virtual",
     period: "Jul 2023 – Jan 2024",
     bullets: [
-      "Created 75+ free data science tutorials using US Census Data and R, educating 500+ beginner learners in statistical analysis.",
-      "Engineered 40+ interactive visualizations and exercises that let learners apply real-world data insights hands-on.",
-      "Analyzed and processed 10+ GB of census datasets; rigorous data-cleaning improved accuracy by 25%.",
+      "Created 75+ open-source data science tutorials using US Census Data and R, enhancing statistical analysis comprehension for 500+ learners.",
+      "Engineered 40+ interactive visualizations and hands-on exercises that enabled learners to extract real-world insights from complex datasets.",
+      "Extracted and processed 10+ GB of raw census data using complex SQL queries, aggregations, and R cleaning workflows, improving accuracy by 25%.",
     ],
     dotColor: "bg-violet-500",
     badgeBg: "bg-violet-50",
     badgeText: "text-violet-600",
     cardBorder: "border-violet-100",
     cardHover: "hover:border-violet-200",
-  },
-  {
-    Icon: Heart,
-    role: "Lead Volunteer",
-    company: "Kumon Math & Reading Center of Apex",
-    location: "Apex, NC",
-    period: "Aug 2019 – Jul 2024",
-    bullets: [
-      "Led a team of 6 volunteers in providing educational support to 40 students in math and reading.",
-      "Supervised daily tutoring operations, driving a 35% increase in student engagement.",
-      "Organized 100+ workshops and parent-teacher meetings; contributed to a 60% family satisfaction rate.",
-    ],
-    dotColor: "bg-rose-400",
-    badgeBg: "bg-rose-50",
-    badgeText: "text-rose-500",
-    cardBorder: "border-rose-100",
-    cardHover: "hover:border-rose-200",
   },
 ];
 

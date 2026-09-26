@@ -6,7 +6,7 @@ const HIGHLIGHTS = [
     Icon: GraduationCap,
     label: "Education",
     value: "B.S. Computer Science · NC State",
-    sub: "GPA 3.7 · Expected May 2028",
+    sub: "GPA 3.6 · Expected May 2028",
     color: "text-indigo-500",
     bg: "bg-indigo-50",
     border: "border-indigo-100",
@@ -32,8 +32,8 @@ const HIGHLIGHTS = [
   {
     Icon: Sparkles,
     label: "Experience",
-    value: "Industry Internship",
-    sub: "IT Support · Volunteer Leadership",
+    value: "Software Engineering Internship",
+    sub: "IT Support · Data Science",
     color: "text-emerald-500",
     bg: "bg-emerald-50",
     border: "border-emerald-100",
@@ -65,36 +65,40 @@ export default function About() {
                 <strong className="text-slate-800 font-semibold">
                   Gaurinath Subash
                 </strong>
-                , a sophomore studying Computer Science at{" "}
+                , a junior studying Computer Science at{" "}
                 <strong className="text-slate-800 font-semibold">
                   NC State University
                 </strong>{" "}
-                with a 3.7 GPA. I am drawn to the intersection of software
+                with a 3.6 GPA. I am drawn to the intersection of software
                 engineering and data science, building systems that are not only
                 functional, but genuinely useful.
               </p>
               <p>
-                My journey started with a virtual data science internship where
-                I created 75+ tutorials teaching US Census data analysis to
-                500+ beginner learners. That experience of making complex data
-                accessible ignited a passion that still drives me today.
+                My journey started with a virtual data science internship at
+                David Kane&apos;s Data Lab, where I created 75+ open-source
+                tutorials teaching US Census data analysis to 500+ learners.
+                That experience of making complex data accessible ignited a
+                passion that still drives me today.
               </p>
               <p>
                 On campus, I serve as an IT Technician for NCSU&apos;s ClassTech
-                program, resolving 15-25 technical issues per week and
-                maintaining 99% uptime for 50+ classrooms. I thrive in
-                environments that require both technical precision and clear
-                communication.
+                program, diagnosing hardware and software failures across 50+
+                classrooms and resolving 15-25 complex incidents each week. I
+                also completed a software engineering internship at Direct
+                Supply, building event-driven microservices and front-end
+                features for production systems.
               </p>
               <p>
-                Beyond coursework, I independently explored real-world data
-                through a project analyzing{" "}
+                Most recently, I co-developed{" "}
                 <strong className="text-slate-800 font-semibold">
-                  Major League Soccer salary trends
+                  Ramp
                 </strong>
-                , applying end-to-end data analysis, visualization, and
-                regression modeling on MLS player compensation data using R and
-                Quarto.
+                , an IBM-powered developer onboarding platform that analyzes
+                unfamiliar Git repositories, generates structured technical
+                assessments, and verifies understanding through written and
+                spoken explain-backs. As the team&apos;s frontend and experience
+                developer, I helped build the React portal and integrated IBM
+                watsonx.ai, Cloudant, and Speech-to-Text workflows.
               </p>
               <p>
                 I&apos;m actively seeking{" "}
